@@ -1,0 +1,21 @@
+.header__logo{
+    position: absolute;
+    width: 7%;
+    margin: 2% 2% 2% 1%;
+}
+
+@media screen and (max-width: 768px) {
+    .header__logo{
+        width: 15%;
+        margin-top: 5%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header__logo{
+        width: 25%;
+        margin-top: 5%;
+        margin-left: -5%;
+    }
+}
